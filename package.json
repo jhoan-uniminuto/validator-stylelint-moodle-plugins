@@ -1,0 +1,19 @@
+{
+  "name": "validator-stylelint-moodle-plugins",
+  "version": "1.0.0",
+  "description": "Validador de estilos CSS para plugins de Moodle usando Stylelint.",
+  "type": "commonjs",
+  "scripts": {
+    "stylelint": "stylelint 'style/**/*.{css,scss}'",
+    "stylelint:fix": "stylelint 'style/**/*.{css,scss}' --fix"
+  },
+  "author": "Jhoan Avila - Uniminuto",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-selector-parser": "^7.1.0",
+    "stylelint": "^16.25.0",
+    "stylelint-config-recess-order": "^7.4.0",
+    "stylelint-config-standard": "^39.0.1",
+    "stylelint-declaration-strict-value": "^1.10.11"
+  }
+}
