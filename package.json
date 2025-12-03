@@ -10,11 +10,13 @@
   },
   "author": "Jhoan Avila - Uniminuto",
   "license": "ISC",
-  "devDependencies": {
-    "postcss-selector-parser": "^7.1.0",
-    "stylelint": "^16.25.0",
+  "dependencies": {
     "stylelint-config-recess-order": "^7.4.0",
     "stylelint-config-standard": "^39.0.1",
     "stylelint-declaration-strict-value": "^1.10.11"
+  },
+  "devDependencies": {
+    "postcss-selector-parser": "^7.1.0",
+    "stylelint": "^16.25.0"
   }
 }
