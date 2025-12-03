@@ -1,6 +1,6 @@
 {
   "name": "validator-stylelint-moodle-plugins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validador de estilos CSS para plugins de Moodle usando Stylelint.",
   "main": "index.js",
   "type": "commonjs",
